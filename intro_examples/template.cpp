@@ -10,7 +10,7 @@ using namespace std;
 
 void local_func(void)
 {
-    return;
+    cout << "This is a template!\n";
 }
 
 int main()
