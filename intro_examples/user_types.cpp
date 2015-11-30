@@ -1,7 +1,8 @@
 /*
- * template.cpp
+ * user_types.cpp
  *
- * Just some boilerplate stuff to use for each file.
+ * User defined types:
+ *    struct, class, enum
  */
 
 #include <iostream>
@@ -98,6 +99,16 @@ void handle_cvector()
 
     // double sum = read_and_sum(num_vals);
     cout << "The sum is: " << sum << "\n";
+}
+
+/* Enums */
+enum class Color {red, green, blue};
+enum class Traffic_light {green, yellow, red};
+
+void handle_enums()
+{
+    Color col = Color::red;
+    Traffic_light light = Traffic_light::red;
 }
 
 int main()
